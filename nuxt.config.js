@@ -14,6 +14,7 @@ export default {
   },
   modules: ["@nuxt/image"],
   image: {
+    domains: ['images.unsplash.com'],
     imageengine: {
       baseURL: "https://9zn06nix.cdn.imgeng.in"
     }
