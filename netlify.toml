@@ -1,0 +1,13 @@
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    Accept-CH = "viewport-width, width, dpr"
+    link = "<https://9zn06nix.cdn.imgeng.in>; rel=preconnect"
+
+    # Multi-value headers are expressed with multi-line strings.
+    permissions-policy = '''
+    ch-viewport-width=("https://9zn06nix.cdn.imgeng.in"), 
+    ch-width=("https://9zn06nix.cdn.imgeng.in"), 
+    ch-dpr=("https://9zn06nix.cdn.imgeng.in")'''
