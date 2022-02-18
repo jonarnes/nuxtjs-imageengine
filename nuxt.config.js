@@ -1,7 +1,8 @@
 export default {
   components: true,
+  target:"static",
   head: {
-    title: "Nuxt Image Example",
+    title: "Nuxt Image + ImageEngine Example",
     htmlAttrs: {
       lang: "en"
     },
@@ -13,7 +14,6 @@ export default {
   },
   modules: ["@nuxt/image"],
   image: {
-    domains: ["https://images.unsplash.com", "https://source.unsplash.com"],
     imageengine: {
       baseURL: "https://try.cdn.imgeng.in"
     }

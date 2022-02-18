@@ -5,7 +5,7 @@
     <figure>
       <nuxt-img
         provider="imageengine"
-        src="/images/mountains.jpg"
+        src="/images/imageengine.png"
         width="3750"
         height="2500"
         sizes="xs:200px md:500px lg:1024"
