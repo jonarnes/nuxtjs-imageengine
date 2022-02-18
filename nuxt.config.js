@@ -15,7 +15,7 @@ export default {
   modules: ["@nuxt/image"],
   image: {
     imageengine: {
-      baseURL: "https://try.cdn.imgeng.in"
+      baseURL: "https://9zn06nix.cdn.imgeng.in"
     }
   }
 };
